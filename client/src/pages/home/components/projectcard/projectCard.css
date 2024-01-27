@@ -1,0 +1,16 @@
+/* Add this style to your ProductCard.css or any other relevant CSS file */
+/* Customize the RGBA values as per your preference */
+
+.bg-awesome-hover:hover {
+    background-image: linear-gradient(45deg, rgba(33, 150, 243, 1), rgba(63, 81, 181, 1));
+    transition: background-image 0.5s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(33, 150, 243, 0.5);
+  }
+  
+  /* Additional styling for better appearance */
+  .bg-awesome-hover {
+    background-image: linear-gradient(45deg, rgba(33, 150, 243, 0.8), rgba(63, 81, 181, 0.8));
+    transition: background-image 0.5s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  

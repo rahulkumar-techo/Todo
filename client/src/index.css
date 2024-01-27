@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* text animations */
+@keyframes colorChange {
+  0% {
+    color: #f6416c;
+  }
+  45% {
+    color: #f8d800;
+  }
+  70% {
+    color: #32ccbc;
+  }
+  100% {
+    color: #720e9e;
+  }
+}
+
+.animated-text {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: inherit;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 1;
+  gap: 10px;
+}
+
+.animated-text span {
+  display: inline-block;
+  animation: colorChange 8s infinite; /* Change the duration as needed */
+  animation-delay: calc(0.5s * var(--index));
+  text-shadow: "1px 1px 3px black";
+  @apply text-balance;
+}
+
+
+/* Home  */
+/* home card */
+
+
+
